@@ -4,6 +4,7 @@ export const profile = {
   title: "Senior Java Developer",
   location: "Tehran, Iran",
   age: 30,
+  photo: "/photo.jpg",
   tagline: "I build scalable backend systems with Java & Spring Boot, and high-quality Android apps with Kotlin.",
 
   about: `Senior Java Developer with over 10 years of software development experience, including more than 1 year of professional experience building backend applications and RESTful services using Java and Spring Boot. Skilled in designing scalable and maintainable backend systems using clean architecture, SOLID principles, JPA/Hibernate, REST APIs, Oracle, PostgreSQL, and modern software development practices.
