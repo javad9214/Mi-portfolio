@@ -7,6 +7,7 @@ import SkillsSection from './components/SkillsSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
 import EducationSection from './components/EducationSection.vue'
 import ContactSection from './components/ContactSection.vue'
+import AppFooter from './components/AppFooter.vue'
 
 document.title = `${profile.shortName} | ${profile.title}`
 </script>
@@ -21,4 +22,5 @@ document.title = `${profile.shortName} | ${profile.title}`
     <EducationSection />
     <ContactSection />
   </main>
+  <AppFooter />
 </template>

@@ -3,16 +3,14 @@ import { profile } from '../data/profile'
 import BaseIcon from './BaseIcon.vue'
 import BaseSection from './BaseSection.vue'
 
-const year = new Date().getFullYear()
-
 const lastSegment = (url) => new URL(url).pathname.split('/').filter(Boolean).pop()
 
 const items = [
   { label: 'Email', value: profile.contact.email, href: `mailto:${profile.contact.email}`, icon: 'mail' },
   { label: 'Phone', value: profile.contact.phone, href: `tel:${profile.contact.phone}`, icon: 'phone' },
   { label: 'Telegram', value: `@${lastSegment(profile.contact.telegram)}`, href: profile.contact.telegram, icon: 'send', external: true },
-  { label: 'GitHub', value: lastSegment(profile.links.github), href: profile.links.github, icon: 'code', external: true },
-  { label: 'LinkedIn', value: lastSegment(profile.links.linkedin), href: profile.links.linkedin, icon: 'external', external: true },
+  { label: 'GitHub', value: lastSegment(profile.links.github), href: profile.links.github, icon: 'github', external: true },
+  { label: 'LinkedIn', value: lastSegment(profile.links.linkedin), href: profile.links.linkedin, icon: 'linkedin', external: true },
 ]
 </script>
 
@@ -40,10 +38,4 @@ const items = [
       </a>
     </div>
   </BaseSection>
-
-  <footer class="border-t border-border/60">
-    <p class="mx-auto max-w-4xl px-4 py-8 text-center text-xs text-muted sm:px-6">
-      © {{ year }} {{ profile.name }}
-    </p>
-  </footer>
 </template>

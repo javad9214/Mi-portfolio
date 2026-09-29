@@ -12,6 +12,12 @@ Also an experienced Android Developer with extensive expertise in Kotlin, Clean 
 
 Strong experience in collaborating across backend and mobile teams, designing and consuming RESTful APIs, optimizing application performance, and building reliable, maintainable software. Also experienced in technical leadership and mentoring developers, with a strong focus on clean code, scalable architecture, problem-solving, and continuous improvement.`,
 
+  stats: [
+    { value: "10+", label: "Years Experience" },
+    { value: "Java", label: "Spring Boot" },
+    { value: "Android", label: "Kotlin" },
+  ],
+
   skillGroups: [
     {
       title: "Backend",
