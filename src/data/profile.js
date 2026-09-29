@@ -1,5 +1,6 @@
 export const profile = {
-  name: "Seyed Mohammad Javad Sadat Hosseini",
+  firstName: "Seyed Mohammad Javad",
+  lastName: "Sadat Hosseini",
   shortName: "Mohammad Javad",
   title: "Senior Java Developer",
   location: "Tehran, Iran",
@@ -7,7 +8,7 @@ export const profile = {
   photo: "/photo.jpg",
   tagline: "I build scalable backend systems with Java & Spring Boot, and high-quality Android apps with Kotlin.",
 
-  about: `Senior Java Developer with over 10 years of software development experience, including more than 1 year of professional experience building backend applications and RESTful services using Java and Spring Boot. Skilled in designing scalable and maintainable backend systems using clean architecture, SOLID principles, JPA/Hibernate, REST APIs, Oracle, PostgreSQL, and modern software development practices.
+  about: `Senior Java Developer with over 10 years of software development experience, including more than 2 year of professional experience building backend applications and RESTful services using Java and Spring Boot. Skilled in designing scalable and maintainable backend systems using clean architecture, SOLID principles, JPA/Hibernate, REST APIs, Oracle, PostgreSQL, and modern software development practices.
 
 Also an experienced Android Developer with extensive expertise in Kotlin, Clean Architecture, MVVM, Hilt, Room, Kotlin Flow, XML, and Jetpack Compose. Experienced in developing high-quality mobile applications and integrating them with backend services.
 
@@ -48,6 +49,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Senior Java Developer",
       company: "Hovita",
+      logo: "/logos/hovita.png",
       employmentType: "Full-time",
       date: "Sep 2024 until now", 
       duration: "2 years",
@@ -70,6 +72,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Senior Android Developer",
       company: "Hovita",
+      logo: "/logos/hovita.png",
       employmentType: "Full-time",
       date: "Feb 2024 until Aug 2024",
       duration: "7 Months",
@@ -88,6 +91,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Senior Android Developer",
       company: "Deno Electronic",
+      logo: "/logos/deno.jpeg",
       employmentType: "Full-time",
       date: "Oct 2023 - Feb 2024",
       duration: "4 months",
@@ -100,6 +104,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Front-End (Vue.js) Developer",
       company: "AlaaTV",
+      logo: "/logos/alaatv.jpg",
       employmentType: "Full-time",
       date: "Feb 2021 - Oct 2023",
       duration: "2 years 11 months",
@@ -111,6 +116,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Mid-level Android Developer & Team Leader",
       company: "AlaaTV",
+      logo: "/logos/alaatv.jpg",
       employmentType: "Full-time",
       date: "Jan 2019 - Apr 2021",
       duration: "2 years 3 months",
@@ -122,6 +128,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Android Developer",
       company: "AlaaTV",
+      logo: "/logos/alaatv.jpg",
       employmentType: "Part-time",
       date: "Jul 2018 - May 2019",
       duration: "10 months",
@@ -132,6 +139,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Junior Android Developer",
       company: "Avaye Fanavari Rahgoshaye Nikan",
+      logo: "/logos/avaye-fanavari.jpeg",
       employmentType: "Part-time",
       date: "Mar 2017 - Jun 2018",
       duration: "1 year 3 months",
@@ -142,6 +150,7 @@ Strong experience in collaborating across backend and mobile teams, designing an
     {
       title: "Android Developer Intern",
       company: "Tamco",
+      logo: "",
       employmentType: "Part-time",
       date: "Sep 2016 - Feb 2017",
       duration: "5 months",
@@ -154,12 +163,14 @@ Strong experience in collaborating across backend and mobile teams, designing an
   education: [
     {
       school: "Semnan University",
+        logo: "/logos/semnan.png",
       degree: "Bachelor of Education",
       fieldOfStudy: "Information Technology",
       date: "2014 - 2019",
     },
     {
       school: "Tehran Institute of Technology",
+       logo: "/logos/vanak.png.webp",
       degree: "Bachelor",
       fieldOfStudy: "Developing Android Apps",
       date: "2015",

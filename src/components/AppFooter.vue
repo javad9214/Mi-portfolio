@@ -26,7 +26,7 @@ const socials = [
           <BaseIcon :name="social.icon" class="h-5 w-5" />
         </a>
       </div>
-      <p class="text-center text-xs text-muted">© {{ year }} {{ profile.name }}</p>
+      <p class="text-center text-xs text-muted">© {{ year }} {{ profile.firstName }} {{ profile.lastName }}</p>
     </div>
   </footer>
 </template>
