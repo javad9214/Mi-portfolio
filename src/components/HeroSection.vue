@@ -70,12 +70,18 @@ const stackCard = { title: `${stackStat.value} · ${stackStat.label}` } // "Java
           <span class="block text-accent">{{ profile.lastName }}</span>
         </h1>
 
-        <p class="fade-in fade-3 mt-6 inline-flex items-center gap-3 text-lg font-medium text-text sm:text-xl">
+        <p
+          class="fade-in fade-3 mt-6 flex items-center justify-center gap-3 text-lg font-medium text-text sm:text-xl"
+          :class="hasPhoto && 'lg:justify-start'"
+        >
           <span class="h-px w-10 bg-accent" aria-hidden="true"></span>
           {{ profile.title }}
         </p>
 
-        <p class="fade-in fade-4 mt-5 inline-flex items-center gap-1.5 text-sm text-muted">
+        <p
+          class="fade-in fade-4 mt-5 flex items-center justify-center gap-1.5 text-sm text-muted"
+          :class="hasPhoto && 'lg:justify-start'"
+        >
           <BaseIcon name="pin" class="h-4 w-4" />
           {{ profile.location }}
         </p>
@@ -87,7 +93,10 @@ const stackCard = { title: `${stackStat.value} · ${stackStat.label}` } // "Java
           {{ profile.tagline }}
         </p>
 
-        <div class="fade-in fade-6 mt-9 inline-flex flex-wrap items-center justify-center gap-3">
+        <div
+          class="fade-in fade-6 mt-9 flex flex-wrap items-center justify-center gap-3"
+          :class="hasPhoto && 'lg:justify-start'"
+        >
           <a
             href="#contact"
             class="rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-bg transition-colors hover:bg-accent/85"
@@ -103,7 +112,10 @@ const stackCard = { title: `${stackStat.value} · ${stackStat.label}` } // "Java
           </a>
         </div>
 
-        <div class="fade-in fade-7 mt-8 inline-flex items-center gap-3">
+        <div
+          class="fade-in fade-7 mt-8 flex items-center justify-center gap-3"
+          :class="hasPhoto && 'lg:justify-start'"
+        >
           <a
             v-for="social in socials"
             :key="social.label"
